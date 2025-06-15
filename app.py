@@ -1,3 +1,17 @@
+#pip install langchain-pinecone
+#pip install langchain-openai
+#pip install langchain
+#pip install flask
+#pip install python-dotenv
+#pip install pinecone-client
+#pip install langchain-core
+#pip install langchain-text-splitters
+#pip install langchain-community   
+# pip install sentence-transformers
+     
+
+
+
 from flask import Flask, render_template, jsonify, request
 from src.helper import download_hugging_face_embeddings
 from langchain_pinecone import PineconeVectorStore
